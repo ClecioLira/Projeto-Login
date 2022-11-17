@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #838fff;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    border-radius: 20px 20px 15px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+    overflow: hidden;
+
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
+}
+
+section div#imagem {
+    background-image: url('../imagens/login.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 400px;
+    height: 40%;
+}
+
+section div#frase {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+
+div.barra > label >span {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+section div.barra {
+    text-align: center;
+    margin-bottom: 5px;
+}
+section div.barra input {
+    width: 300px;
+    height: 30px;
+    border: 0.1px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    transform: translateY(-10px);
+}
+
+div#botao {
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+}
+div#botao > input {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: #272C59;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+div#botao > input:hover {
+    background-color: white;
+    color: #272C59;
+}
+div#botao > a {
+    width: 150px;
+    height: 35px;
+    padding: 8.5px;
+    border: none;
+    text-decoration: none;
+    background-color: #272C59;
+    color: white;
+    border-radius: 15px;
+}
+div#botao > a:hover {
+    background-color: white;
+    color: #272C59;
+}
