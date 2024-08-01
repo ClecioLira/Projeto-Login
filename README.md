@@ -7,7 +7,7 @@ Entre por esse link: https://cleciolira.github.io/Projeto-Login/
 # Estrutura do Projeto
 index.html: Contém a estrutura da página web.
 
-style.css: Arquivo de estilo para estilizar e deixar a página responsiva para diferentes tipos de telas.
+style.css: Arquivo de estilo para estilizar a pagina.
 
 mediaquery.css: Arquivo de estilo que contém o algoritmo css para deixar o site responsivo.
 
